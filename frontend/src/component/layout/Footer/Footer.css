@@ -1,0 +1,109 @@
+footer {
+  margin-top: 3vmax;
+
+}
+
+.footerbackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(0.25turn, #1f353f, #151714, #ad6518); */
+  height: 40vh;
+  width: 100vw;
+  margin-left: 45vh;
+}
+.footermaincontainer{
+  background: linear-gradient(0.25turn, #1f353f, #151714, #ad6518);
+}
+.footerbar{
+  display: flex;    
+
+}
+
+.foreground {
+  position: absolute;
+  width: 400px;
+  height: 180px;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 100, 100, 0.5),
+    rgba(96, 186, 206, 0.5)
+  );
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  color: white;
+  font-family: "Jura", sans-serif;
+  display: flex;
+}
+
+.foreground h1 {
+  margin: auto;
+}
+
+.bg_text {
+  color: white;
+  font-size: 50pt;
+}
+
+.iconsfooter ul {
+  position: relative;
+  display: flex;
+  z-index: 2;
+  margin-top: 28vh;
+  right: 10%;
+}
+
+.iconsfooter ul li {
+  position: relative;
+  list-style: none;
+  margin: 4px;
+  
+}
+
+.iconsfooter ul li a {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  border: 1px solid rgba(255,255,255,0.4); 
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 5px 45px rgba(0,0,0,0.1);
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.iconsfooter ul li a:hover {
+  transform: translateY(-15px);
+}
+
+.iconsfooter ul li a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  transform: skewX(45deg) translateX(150px);
+  transition: 0.5s;
+}
+
+.iconsfooter  ul li a:hover::before {
+  transform: skewX(45deg) translateX(-150px);
+}
+.copyright{
+   margin-bottom: 12px;
+  margin-left:85vh;
+  color: white;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+
+/* 
+html {
+  font-size: 62.5%;
+
+} */
+
+.aboutabtuscontainerabt{
+  font-family: "Kalam", cursive;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,79,121,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 5.5rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.containerabt section {
+  padding: 1rem 7%;
+  min-height: 100%;
+}
+
+.btnabt {
+  font-size: 2rem;
+  padding: 0.7rem 4rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem black;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.btnabt:hover {
+  background: rgba(255, 255, 255, 0.5);
+  /* color: darkred; */
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.headingabt {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+/* HEADER SECTION ON LEFTSIDE START */
+.aboutabtuscontainerabt header {
+  width: 30rem;
+
+  box-shadow: 0 1rem 2rem black;
+  backdrop-filter: blur(0.4rem);
+  text-align: center;
+  /* padding: 1rem; */
+  border-radius: 1rem;
+}
+.aboutabtuscontainerabt header .userabt {
+  padding-top: 2rem;
+}
+.aboutabtuscontainerabt header .userabt img {
+  margin: 1rem 0;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 1rem rgb(14, 141, 169);
+}
+.aboutabtuscontainerabt header .userabt .nameabt {
+  font-size: 3rem;
+  color: white;
+  padding: 0.5rem 0;
+}
+.aboutabtuscontainerabt header .userabt .post {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: lighter;
+}
+.aboutabtuscontainerabt header .navbarabt {
+  padding: 0.5rem 3rem;
+}
+.aboutabtuscontainerabt header .navbarabt ul li {
+  margin: 1rem 0;
+  list-style: none;
+}
+.aboutabtuscontainerabt header .navbarabt ul li a {
+  outline: none; 
+  border: none;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem black;
+  transition: all 0.2s linear;
+}
+.aboutabtuscontainerabt header .navbarabt ul li a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  transition: none;
+}
+/* HEADER SECTION ON LEFTSIDE END */
+
+.containerabt {
+  height: 58rem;
+  width: 80rem;
+ 
+  box-shadow: 0 1rem 2rem black;
+  backdrop-filter: blur(0.4rem);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.homeabt {
+      backdrop-filter: blur(0.4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  padding-bottom: 10rem;
+  top: -15%;
+
+}
+.homeabt h3 {
+  
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: white;
+}
+.homeabt .nameabt span {
+  font-size: 4rem;
+  color: white;
+}
+.homeabt .post {
+  padding: 1rem 0;
+}
+.homeabt .post span {
+  font-size: 3rem;
+  color: white;
+}
+.homeabt .shareabt {
+  position: absolute;
+  left: 50%;
+  bottom: 5rem;
+  transform: translateX(-50%);
+  display: flex;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1rem 2rem black;
+  transition: 0.2 linear;
+}
+.homeabt .shareabt a {
+  outline: none; 
+  border: none;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1rem 2rem black;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  color: white;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+.homeabt .shareabtabt a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+/* aboutabt SECTION CSS start below here */
+.aboutabt {
+      backdrop-filter: blur(0.4rem);
+}
+.aboutabt .contentabt h3 {
+  font-size: 2.5rem;
+  color: white;
+ }
+.aboutabt .contentabt h3 span {
+  color: white;
+}
+.aboutabt .contentabt p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5rem 0;
+}
+.aboutabt .skills {
+  padding: 1rem 0;
+}
+.aboutabt .skills .progress {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  box-shadow: 0 1rem 2rem black;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+}
+.aboutabt .skills .progress h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+.aboutabt .skills .progress .bar {
+  position: relative;
+  width: 100%;
+  height: 0.3rem;
+  margin: 1rem 0;
+  background: gray;
+}
+.aboutabt .skills .progress .bar span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.aboutabt .contentabt p a {
+  color:white; 
+  text-decoration:underline;
+  cursor:pointer; 
+}
+.aboutabt .contentabt p a:hover {
+  color:cyan;  
+}
+
+
+
+
+.contactabt {
+
+      backdrop-filter: blur(0.4rem);
+       
+
+}
+.contactabt .row {
+  display:flex;
+  justify-content:space-between;
+
+  align-items:center; 
+  /* margin-top: -10vh; */
+}
+.contactabt .row form {
+
+  box-shadow: 0 1rem 2rem black;
+  border-radius:1rem; 
+  display:flex;
+  flex-direction: row;
+
+  justify-content:space-between;
+  padding:1rem 2rem;  
+  flex-wrap:wrap; 
+
+
+}
+.contactabt .row form .boxabt {
+  box-shadow: 0 1rem 2rem black;
+  border-radius:1rem;
+  padding:0 1rem; 
+  margin:1rem 0; 
+  height:4rem;
+  width: 40%;
+  font-size:1.7rem; 
+  text-transform:none;
+}
+.contactabt .row form .boxabt::placeholder {
+    text-transform:capitalize;
+}
+.contactabt .row form .message {
+  padding:1rem;
+  height:15rem;
+  resize:none;
+  width: 100%;
+}
+.contactabt .row form .btnabt {
+  margin-bottom: 1rem;  
+}
+.contactabt .row .contentabt {
+  padding:0 5rem;  
+}
+.contactabt .row .contentabt .iconsabt {
+  padding:1rem 0;  
+}
+.contactabt .row .contentabt .iconsabt h3 {
+  color:white;
+  font-size: 2rem;
+  padding:1rem 0;  
+  display:flex;
+}
+.contactabt .row .contentabt.iconsabt h3 i {
+  padding-right: 0.5rem;
+}
+.contactabt .row .contentabt .iconsabt p{
+  color:white;
+  font-size:1.5rem ;
+}
+
+
+
+.footerabt .credit {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: lighter;
+  margin-top: 2rem;
+}
+.footerabt .credit span {
+  color: white;
+}
+.footerabt .credit a {
+  color: white;
+  cursor:pointer;
+  text-decoration:underline;
+}
+.footerabt .credit a:hover{
+    color: cyan;
+}
+
+
+.theme-toggler {
+  
+  box-shadow: 0 1rem 2rem black;
+  border-radius:1rem;
+  backdrop-filter: blur(0.4rem);  
+}
+.theme-toggler span {
+  display:block;
+  height: 3rem;
+  width:3rem;
+  border-radius:50%;
+  cursor:pointer;
+  margin:2rem 2.5rem;
+  box-shadow: 0 0 0 0.5rem maroon, 0 1rem 2rem black;
+}

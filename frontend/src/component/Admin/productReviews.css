@@ -1,0 +1,91 @@
+.productReviewsContainer {
+  width: 100%;
+  box-sizing: border-box;
+
+  /* border-left: 1px solid rgba(0, 0, 0, 0.158); */
+  height: 100vh;
+}
+
+.productReviewsForm {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3vmax;
+  /* background-color: white; */
+}
+
+.productReviewsFormHeading {
+  color: rgba(0, 0, 0, 0.733);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"),
+		linear-gradient(
+			to right top,
+			#cf4af3,
+			#e73bd7,
+			#f631bc,
+			#fd31a2,
+			#ff3a8b,
+			#ff4b78,
+			#ff5e68,
+			#ff705c,
+			#ff8c51,
+			#ffaa49,
+			#ffc848,
+			#ffe652
+		);
+    border-radius: 14px;
+    padding: 10px 25px;
+  font: 300 1.3rem "Roboto";
+  text-align: center;
+}
+.productReviewsFormHeadingalrt{
+  color: rgba(0, 0, 0, 0.733);
+  font: 300 1.3rem "Roboto";
+  text-align: center;
+}
+.productReviewsForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 2rem;
+  position: relative;
+}
+.productReviewsForm > div > input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+  background: none;
+   color: white;
+}
+.productReviewsForm > div > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(19, 18, 18);
+  opacity: 1; /* Firefox */
+}
+
+.productReviewsForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+@media screen and (max-width: 600px) {
+  .productReviewsContainer {
+    border-left: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.158);
+  }
+  .productReviewsForm > div > input {
+    padding: 2.5vmax 5vmax;
+    font: 300 1.7vmax cursive;
+  }
+
+  .productReviewsForm > div > svg {
+    font-size: 2.8vmax;
+  }
+}
