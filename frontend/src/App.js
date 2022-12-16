@@ -120,7 +120,7 @@ function App() {
         <ProtectedRoute exact path="/order/confirm" component={ConfirmOrder} />
 
         <ProtectedRoute exact path="/order/:id" component={OrderDetails} />
-        <ProtectedRoute exact path="/proess/payment" component={Payment} />
+        <ProtectedRoute exact path="/payment/process" component={Payment} />
 
         <ProtectedRoute
           isAdmin={true}
